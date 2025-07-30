@@ -5,7 +5,7 @@ from scipy.stats import pearsonr , chi2_contingency
 
 sns.set(style="whitegrid")
 
-df =pd.read_csv("/home/vedant/Downloads/demographic_data.csv")
+df =pd.read_csv("Resources/demographic_data.csv")
 
 
 #Box plot Income by gender
